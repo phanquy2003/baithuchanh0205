@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Giới thiệu bản thân</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bth01.css">
+</head>
+<body>
+  <header>
+    <h2>Chào các bạn, chúng ta làm quen nhé!</h2>
+    <img width="500" src="avt.jpg">
+    <h2>Dưới đây là một số thông tin cá nhân về tôi muốn giới thiệu, bạn đọc nhá !</h2>
+  </header>
+  <main>
+    <div class="flex-container"> 
+    <section class ="section1">
+      <h2>1. Thông tin cá nhân của tôi</h2>
+      <p>Họ và tên: Phan Hoàng Quý</p>
+      <ul>
+        <li>Ngày sinh: 06/11/2003</li>
+        <li>Giới tính: Nam</li>
+        <li>Học vấn: Hiện đang là sinh viên năm 3 tại Trường Đại học Công nghiệp TPHCM</li>
+        <li>Lớp: DHTMDT17E</li>
+      </ul>
+    </section>
+    <section class ="section2">
+      <h2>2. Điểm nổi bật</h2>
+      <p>* Tính cách:</p>
+      <ul>
+        <li>Năng động</li>
+        <li>Nhiệt tình trong công việc</li>
+        <li>Ham học hỏi</li>
+        <li>Chịu khó lắng nghe</li>
+        <li>Sáng tạo</li>
+      </ul>
+      <p>* Sở thích:</p>
+      <ul>
+        <li>Thể thao</li>
+        <li>Âm nhạc</li>
+        <li>Vui chơi</li>
+        <li>Nấu ăn</li>
+      </ul>
+    </section>
+    <section class ="section3">
+      <h2>3. Thông tin người dùng</h2>
+      <form id="user-form">
+        <div>
+          <label>Điền thông tin vào đây:</label>
+          <input type="text" placeholder="Tên bạn là gì?" id="name-input">
+          <label>Giới tính:</label>
+          <select id="gender-select">
+            <option>Nữ</option>
+            <option>Nam</option>
+          </select>
+        </div>
+        <div>
+          <label>Bạn có người yêu chưa?</label>
+          <input type="radio" name="has-partner" id="no-partner"> Chưa có người yêu
+          <input type="radio" name="has-partner" id="has-partner"> Đã có người yêu
+        </div>
+        <div>
+          <label>Học vấn?</label>
+          <input type="radio" name="education" id="student"> Sinh viên
+          <input type="radio" name="education" id="graduate"> Đã tốt nghiệp
+        </div>
+        <button id="submit-btn">Bấm vào đây</button>
+      </form>
+    </section>
+    <section class ="section4">
+      <h2>Hãy đặt câu hỏi cho tôi!</h2>
+      <form id="question-form">
+        <input type="text" placeholder="Điền câu hỏi của bạn" id="question-input">
+        <button id="ask-btn">Gửi câu hỏi</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <h3>Thông tin liên hệ:</h3>
+    <ul>
+      <li>Email: <a href="mailto:abcdquy2003@gmail.com">abcdquy2003@gmail.com</a></li>
+      <li>Facebook: <a href="https://www.facebook.com/phan.quy.1466" target="_blank">https://www.facebook.com/phan.quy.1466</a></li>
+    </ul>
+  </footer>
+</div>
+  <script src="bth01.js"></script>
+</body>
+</html>
